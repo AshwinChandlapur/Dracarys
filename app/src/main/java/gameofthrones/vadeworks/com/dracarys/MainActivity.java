@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
+import android.net.Uri;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -15,7 +16,9 @@ import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.github.florent37.viewtooltip.ViewTooltip;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 
@@ -32,8 +35,7 @@ public class MainActivity extends AppCompatActivity {
     ImageButton r7i1,r7i2,r7i3,r7i4;
     ImageButton r8i1,r8i2,r8i3,r8i4;
     ImageButton r9i1,r9i2,r9i3,r9i4;
-    TextView t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15,t16,t17,t18;
-    TextView t19,t20,t21,t22,t23,t24,t25,t26,t27,t28,t29,t30,t31,t32,t33,t34,t35,t36;
+
     int i =0;
     private InterstitialAd interstitial;
 
@@ -48,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
         Typeface gotfont = Typeface.createFromAsset(this.getAssets(),"fonts/game.ttf");
 
+        TextView GOT = (TextView)findViewById(R.id.gotText);
         TextView t1 = (TextView)findViewById(R.id.t1);
         TextView t2 = (TextView)findViewById(R.id.t2);
         TextView t3 = (TextView)findViewById(R.id.t3);
@@ -85,6 +88,42 @@ public class MainActivity extends AppCompatActivity {
         TextView t35 = (TextView)findViewById(R.id.t35);
         TextView t36 = (TextView)findViewById(R.id.t36);
 
+        TextView share = (TextView)findViewById(R.id.t37);
+        TextView rate = (TextView)findViewById(R.id.t38);
+
+
+        ImageButton rating = (ImageButton)findViewById(R.id.rate);
+        rating.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                final String appPackageName = getPackageName();
+                try {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
+                } catch (android.content.ActivityNotFoundException anfe) {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + appPackageName)));
+                }
+
+            }
+        });
+
+        ImageButton sharing = (ImageButton)findViewById(R.id.share);
+        sharing.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent sendIntent = new Intent();
+                String str = "https://play.google.com/store/apps/details?id=" + getPackageName();
+                sendIntent.setAction(Intent.ACTION_SEND);
+                sendIntent.putExtra(Intent.EXTRA_TEXT,
+                        "Fan made GOT SoundBoard.Valar Morghulis. Download Now:\n"+str);
+
+                sendIntent.setType("text/plain");
+                startActivity(sendIntent);
+            }
+        });
+
+
+        GOT.setTypeface(gotfont);
         t1.setTypeface(gotfont);
         t2.setTypeface(gotfont);
         t3.setTypeface(gotfont);
@@ -121,21 +160,11 @@ public class MainActivity extends AppCompatActivity {
         t34.setTypeface(gotfont);
         t35.setTypeface(gotfont);
         t36.setTypeface(gotfont);
+        share.setTypeface(gotfont);
+        rate.setTypeface(gotfont);
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+        ViewTooltip.on(t15).autoHide(true, 4000 ).corner(0).position(ViewTooltip.Position.TOP).text("Click on dialogue Cards To Listen").show();
 
         ScrollView co= (ScrollView)findViewById(R.id.scroll);
         co.setOnTouchListener(new View.OnTouchListener() {

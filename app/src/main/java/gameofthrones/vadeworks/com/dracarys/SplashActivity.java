@@ -98,7 +98,7 @@ public class SplashActivity extends Activity {
             }
         });
         // create tooltip & point to history button
-        ViewTooltip.on(badge).autoHide(true, 2000 ).corner(10).position(ViewTooltip.Position.TOP).text("Click Here").show();
+        ViewTooltip.on(badge).autoHide(true, 4000 ).corner(0).position(ViewTooltip.Position.TOP).text("Click on GOT Sigil").show();
 
 
 //        ImageButton hodor = (ImageButton)findViewById(R.id.hodor);
