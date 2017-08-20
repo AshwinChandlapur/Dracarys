@@ -31,83 +31,83 @@ public class RobotoTextView extends TextView {
         switch (typeface) {
             case Roboto.ROBOTO_BLACK:
                 if (Roboto.sRobotoBlack == null) {
-                    Roboto.sRobotoBlack = Typeface.createFromAsset(context.getAssets(), "fonts/quicksand.otf");
+                    Roboto.sRobotoBlack = Typeface.createFromAsset(context.getAssets(), "fonts/game.ttf");
                 }
                 return Roboto.sRobotoBlack;
             case Roboto.ROBOTO_BLACK_ITALIC:
                 if (Roboto.sRobotoBlackItalic == null) {
-                    Roboto.sRobotoBlackItalic = Typeface.createFromAsset(context.getAssets(), "fonts/quicksand.otf");
+                    Roboto.sRobotoBlackItalic = Typeface.createFromAsset(context.getAssets(), "fonts/game.ttf");
                 }
                 return Roboto.sRobotoBlackItalic;
             case Roboto.ROBOTO_BOLD:
                 if (Roboto.sRobotoBold == null) {
-                    Roboto.sRobotoBold = Typeface.createFromAsset(context.getAssets(), "fonts/quicksand.otf");
+                    Roboto.sRobotoBold = Typeface.createFromAsset(context.getAssets(), "fonts/game.ttf");
                 }
                 return Roboto.sRobotoBold;
             case Roboto.ROBOTO_BOLD_CONDENSED:
                 if (Roboto.sRobotoBoldCondensed == null) {
-                    Roboto.sRobotoBoldCondensed = Typeface.createFromAsset(context.getAssets(), "fonts/quicksand.otf");
+                    Roboto.sRobotoBoldCondensed = Typeface.createFromAsset(context.getAssets(), "fonts/game.ttf");
                 }
                 return Roboto.sRobotoBoldCondensed;
             case Roboto.ROBOTO_BOLD_CONDENSED_ITALIC:
                 if (Roboto.sRobotoBoldCondensedItalic == null) {
-                    Roboto.sRobotoBoldCondensedItalic = Typeface.createFromAsset(context.getAssets(), "fonts/quicksand.otf");
+                    Roboto.sRobotoBoldCondensedItalic = Typeface.createFromAsset(context.getAssets(), "fonts/game.ttf");
                 }
                 return Roboto.sRobotoBoldCondensedItalic;
             case Roboto.ROBOTO_BOLD_ITALIC:
                 if (Roboto.sRobotoBoldItalic == null) {
-                    Roboto.sRobotoBoldItalic = Typeface.createFromAsset(context.getAssets(), "fonts/quicksand.otf");
+                    Roboto.sRobotoBoldItalic = Typeface.createFromAsset(context.getAssets(), "fonts/game.ttf");
                 }
                 return Roboto.sRobotoBoldItalic;
             case Roboto.ROBOTO_CONDENSED:
                 if (Roboto.sRobotoCondensed == null) {
-                    Roboto.sRobotoCondensed = Typeface.createFromAsset(context.getAssets(), "fonts/quicksand.otf");
+                    Roboto.sRobotoCondensed = Typeface.createFromAsset(context.getAssets(), "fonts/game.ttf");
                 }
                 return Roboto.sRobotoCondensed;
             case Roboto.ROBOTO_CONDENSED_ITALIC:
                 if (Roboto.sRobotoCondensedItalic == null) {
-                    Roboto.sRobotoCondensedItalic = Typeface.createFromAsset(context.getAssets(), "fonts/quicksand.otf");
+                    Roboto.sRobotoCondensedItalic = Typeface.createFromAsset(context.getAssets(), "fonts/game.ttf");
                 }
                 return Roboto.sRobotoCondensedItalic;
             case Roboto.ROBOTO_ITALIC:
                 if (Roboto.sRobotoItalic == null) {
-                    Roboto.sRobotoItalic = Typeface.createFromAsset(context.getAssets(), "fonts/quicksand.otf");
+                    Roboto.sRobotoItalic = Typeface.createFromAsset(context.getAssets(), "fonts/game.ttf");
                 }
                 return Roboto.sRobotoItalic;
             case Roboto.ROBOTO_LIGHT:
                 if (Roboto.sRobotoLight == null) {
-                    Roboto.sRobotoLight = Typeface.createFromAsset(context.getAssets(), "fonts/quicksand.otf");
+                    Roboto.sRobotoLight = Typeface.createFromAsset(context.getAssets(), "fonts/game.ttf");
                 }
                 return Roboto.sRobotoLight;
             case Roboto.ROBOTO_LIGHT_ITALIC:
                 if (Roboto.sRobotoLightItalic == null) {
-                    Roboto.sRobotoLightItalic = Typeface.createFromAsset(context.getAssets(), "fonts/quicksand.otf");
+                    Roboto.sRobotoLightItalic = Typeface.createFromAsset(context.getAssets(), "fonts/game.ttf");
                 }
                 return Roboto.sRobotoLightItalic;
             case Roboto.ROBOTO_MEDIUM:
                 if (Roboto.sRobotoMedium == null) {
-                    Roboto.sRobotoMedium = Typeface.createFromAsset(context.getAssets(), "fonts/quicksand.otf");
+                    Roboto.sRobotoMedium = Typeface.createFromAsset(context.getAssets(), "fonts/game.ttf");
                 }
                 return Roboto.sRobotoMedium;
             case Roboto.ROBOTO_MEDIUM_ITALIC:
                 if (Roboto.sRobotoMediumItalic == null) {
-                    Roboto.sRobotoMediumItalic = Typeface.createFromAsset(context.getAssets(), "fonts/quicksand.otf");
+                    Roboto.sRobotoMediumItalic = Typeface.createFromAsset(context.getAssets(), "fonts/game.ttf");
                 }
                 return Roboto.sRobotoMediumItalic;
             default:
             case Roboto.ROBOTO_REGULAR:
                 if (Roboto.sRobotoRegular == null) {
-                    Roboto.sRobotoRegular = Typeface.createFromAsset(context.getAssets(), "fonts/quicksand.otf");
+                    Roboto.sRobotoRegular = Typeface.createFromAsset(context.getAssets(), "fonts/game.ttf");
                 }
                 return Roboto.sRobotoRegular;
             case Roboto.ROBOTO_THIN:
                 if (Roboto.sRobotoThin == null) {
-                    Roboto.sRobotoThin = Typeface.createFromAsset(context.getAssets(), "fonts/quicksand.otf");
+                    Roboto.sRobotoThin = Typeface.createFromAsset(context.getAssets(), "fonts/game.ttf");
                 }
                 return Roboto.sRobotoThin;
             case Roboto.ROBOTO_THIN_ITALIC:
                 if (Roboto.sRobotoThinItalic == null) {
-                    Roboto.sRobotoThinItalic = Typeface.createFromAsset(context.getAssets(), "fonts/quicksand.otf");
+                    Roboto.sRobotoThinItalic = Typeface.createFromAsset(context.getAssets(), "fonts/game.ttf");
                 }
                 return Roboto.sRobotoThinItalic;
         }

@@ -8,12 +8,13 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:id="@+id/scroll">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@drawable/hodor">
+        android:background="#90caf9">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -39,8 +40,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Enemies\nEverywhere"
+                android:text="Arya Stark\nof Winterfell"
                 android:textColor="#ffffff"
+                android:id="@+id/t1"
+                android:textSize="8dp"
                 android:layout_gravity="center"
                 android:gravity="center"
                 />
@@ -54,14 +57,16 @@
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:background="#4e4e4e"
+            android:background="#2e2e2e"
             android:id="@+id/r1i2"
             android:layout_weight="1"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Dracarys"
+                android:text="Bastard's\nFight"
                 android:textColor="#ffffff"
+                android:textSize="8dp"
+                android:id="@+id/t2"
                 android:layout_gravity="center"
                 android:gravity="center"
                 />
@@ -75,7 +80,7 @@
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:background="#6e6e6e"
+            android:background="#2e2e2e"
             android:id="@+id/r1i3"
             android:layout_weight="1"
             />
@@ -83,8 +88,10 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Born To Rule"
+                android:text="Lyanna\nMormont"
                 android:textColor="#ffffff"
+                android:textSize="8dp"
+                android:id="@+id/t3"
                 android:layout_gravity="center"
                 android:gravity="center"
                 />
@@ -98,15 +105,17 @@
         <ImageButton
             android:layout_width="match_parent"
             android:layout_height="100dp"
-            android:background="#8e8e8e"
+            android:background="#2e2e2e"
             android:id="@+id/r1i4"
             android:layout_weight="1"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Hodor"
+                android:text="There's No\nCure"
                 android:textColor="#ffffff"
+                android:textSize="8dp"
+                android:id="@+id/t4"
                 android:layout_gravity="center"
                 android:gravity="center"
                 />
@@ -138,7 +147,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="HODOR"
+                    android:text="BigFish"
+                    android:id="@+id/t5"
+                    android:textSize="8dp"
                     android:textColor="#ffffff"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -159,8 +170,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="HODOR"
+                    android:text="Born To Rule"
                     android:textColor="#ffffff"
+                    android:id="@+id/t6"
+                    android:textSize="8dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     />
@@ -182,7 +195,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="HODOR"
+                    android:text="War for "
+                    android:id="@+id/t7"
+                    android:textSize="8dp"
                     android:textColor="#ffffff"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -204,7 +219,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="HODOR"
+                    android:text="Chaos"
+                    android:id="@+id/t8"
+                    android:textSize="8dp"
                     android:textColor="#ffffff"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -236,7 +253,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="HODOR"
+                    android:text="Stormborn"
+                    android:id="@+id/t9"
+                    android:textSize="8dp"
                     android:textColor="#ffffff"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -257,7 +276,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="HODOR"
+                    android:text="Deny"
+                    android:id="@+id/t10"
+                    android:textSize="8dp"
                     android:textColor="#ffffff"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -280,7 +301,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="HODOR"
+                    android:text="Dracarys"
+                    android:id="@+id/t11"
+                    android:textSize="8dp"
                     android:textColor="#ffffff"
                     android:layout_gravity="center"
                     android:gravity="center"
@@ -302,8 +325,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="HODOR"
+                    android:text="Imp's Advice"
                     android:textColor="#ffffff"
+                    android:id="@+id/t12"
+                    android:textSize="8dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     />
@@ -335,8 +360,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="HODOR"
+                    android:text="Enemies\nEverywhere"
                     android:textColor="#ffffff"
+                    android:id="@+id/t13"
+                    android:textSize="8dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     />
@@ -356,8 +383,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="HODOR"
+                    android:text="Fight\nEverywhere"
                     android:textColor="#ffffff"
+                    android:id="@+id/t14"
+                    android:textSize="8dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     />
@@ -379,8 +408,10 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="HODOR"
+                    android:text="Game\nof Thrones"
                     android:textColor="#ffffff"
+                    android:id="@+id/t15"
+                    android:textSize="8dp"
                     android:layout_gravity="center"
                     android:gravity="center"
                     />
@@ -401,13 +432,575 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="HODOR"
+                    android:text="Hodor"
+                    android:id="@+id/t16"
+                    android:textSize="8dp"
                     android:textColor="#ffffff"
                     android:layout_gravity="center"
                     android:gravity="center"
                     />
             </FrameLayout>
         </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/row5"
+            android:padding="5dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="100dp"
+                    android:background="#2e2e2e"
+                    android:id="@+id/r5i1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="How Do you\nwant to die?"
+                    android:textColor="#ffffff"
+                    android:id="@+id/t17"
+                    android:textSize="8dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#4e4e4e"
+                    android:id="@+id/r5i2"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="King in\nthe North"
+                    android:textColor="#ffffff"
+                    android:id="@+id/t18"
+                    android:textSize="8dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#6e6e6e"
+                    android:id="@+id/r5i3"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lannisters"
+                    android:textColor="#ffffff"
+                    android:id="@+id/t19"
+                    android:textSize="8dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#8e8e8e"
+                    android:id="@+id/r5i4"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lion\nand\nsheep"
+                    android:textColor="#ffffff"
+                    android:id="@+id/t20"
+                    android:textSize="8dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/row6"
+            android:padding="5dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="100dp"
+                    android:background="#2e2e2e"
+                    android:id="@+id/r6i1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="NightsWatch"
+                    android:id="@+id/t21"
+                    android:textSize="8dp"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#4e4e4e"
+                    android:id="@+id/r6i2"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The\nLoneWolf"
+                    android:id="@+id/t22"
+                    android:textSize="8dp"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#6e6e6e"
+                    android:id="@+id/r6i3"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="North\nRemembers"
+                    android:id="@+id/t23"
+                    android:textSize="8dp"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#8e8e8e"
+                    android:id="@+id/r6i4"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No True King"
+                    android:id="@+id/t24"
+                    android:textSize="8dp"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/row7"
+            android:padding="5dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="100dp"
+                    android:background="#2e2e2e"
+                    android:id="@+id/r7i1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Not Today"
+                    android:id="@+id/t25"
+                    android:textSize="8dp"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#4e4e4e"
+                    android:id="@+id/r7i2"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pay Attention"
+                    android:textSize="8dp"
+                    android:id="@+id/t26"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#6e6e6e"
+                    android:id="@+id/r7i3"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lannisters"
+                    android:textColor="#ffffff"
+                    android:textSize="8dp"
+                    android:id="@+id/t27"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#8e8e8e"
+                    android:id="@+id/r7i4"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Swing the\nSword"
+                    android:textColor="#ffffff"
+                    android:id="@+id/t28"
+                    android:textSize="8dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/row8"
+            android:padding="5dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="100dp"
+                    android:background="#2e2e2e"
+                    android:id="@+id/r8i1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Varys"
+                    android:id="@+id/t29"
+                    android:textSize="8dp"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#4e4e4e"
+                    android:id="@+id/r8i2"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="WheelBreaker"
+                    android:id="@+id/t30"
+                    android:textSize="8dp"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#6e6e6e"
+                    android:id="@+id/r8i3"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Winter\nIs\nComing"
+                    android:textColor="#ffffff"
+                    android:id="@+id/t31"
+                    android:textSize="8dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#8e8e8e"
+                    android:id="@+id/r8i4"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dracarys"
+                    android:id="@+id/t32"
+                    android:textSize="8dp"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/row9"
+            android:padding="5dp"
+            android:layout_weight="1">
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="100dp"
+                    android:background="#2e2e2e"
+                    android:id="@+id/r9i1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dracarys"
+                    android:textSize="8dp"
+                    android:id="@+id/t33"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#4e4e4e"
+                    android:id="@+id/r9i2"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hodor"
+                    android:id="@+id/t34"
+                    android:textSize="8dp"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#6e6e6e"
+                    android:id="@+id/r9i3"
+                    android:layout_weight="1"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dracarys"
+                    android:id="@+id/t35"
+                    android:textSize="8dp"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="#8e8e8e"
+                    android:id="@+id/r9i4"
+
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hodor"
+                    android:id="@+id/t36"
+                    android:textSize="8dp"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    />
+            </FrameLayout>
+        </LinearLayout>
+
+
+
 
 
     </LinearLayout>
